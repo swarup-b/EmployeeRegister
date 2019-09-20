@@ -1,0 +1,14 @@
+.material-spinner {
+    margin-left: 561px;
+}
+
+.mat-progress-spinner circle,
+.mat-spinner circle {
+    stroke: red;
+}
+
+.spinner-border {
+    position: fixed;
+    margin-left: 558px;
+    margin-top: 193px;
+}

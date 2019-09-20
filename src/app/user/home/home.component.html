@@ -1,0 +1,14 @@
+<div class="main-div">
+    <div fxLayout="row" fxLayout.md="column" fxFlexFill fxLayoutAlign="space-between">
+        <div fxFlex="">
+            <h1 style="margin-left: 25%;">All Contact Informations</h1>
+            <div class="mat-elevation-z8">
+                <app-material-table></app-material-table>
+            </div>
+        </div>
+        <div fxFlex="40%" class="formDiv">
+            <app-contacts></app-contacts>
+        </div>
+        <div class="fab" (click)="onCreate()"> + </div>
+    </div>
+</div>
